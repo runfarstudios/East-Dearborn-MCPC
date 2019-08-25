@@ -2,3 +2,29 @@
 CSS File for East Dearborn Medical Center PC Website
 */
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+#nav{
+    background-color: cyan;
+    height: 10vh;
+}
+#nav a{
+    padding: 2vh;
+}
+#intro{
+    background-color: gray;
+    background-size: cover;
+    height: 100vh;
+}
+#gallery{
+    padding-top: 20vh;
+}
+.locked{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+}
