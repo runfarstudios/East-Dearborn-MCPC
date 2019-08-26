@@ -5,7 +5,7 @@ CSS File for East Dearborn Medical Center PC Website
 
 #nav{
     background-color: cyan;
-    height: 10vh;
+    height: 70px;
 }
 #nav a{
     padding: 2vh;
@@ -15,14 +15,24 @@ CSS File for East Dearborn Medical Center PC Website
     background-size: cover;
     height: 100vh;
 }
-#gallery{
-    padding-top: 20vh;
+.nav-hidden{
+    display: none;
 }
-.locked{
-    position: fixed;
+.nav-locked{
+    display: block;
     top: 0;
+    position: fixed;
     width: 100%;
 }
+
+.content-idle{
+    padding-top: 20px;
+}
+
+.content-active{
+    padding-top: 80px;
+}
+
 
 .row{
     padding: 0;
