@@ -11,9 +11,36 @@ CSS File for East Dearborn Medical Center PC Website
     padding: 2vh;
 }
 #intro{
-    background-color: gray;
+    background-image: url("images/cover.jpg");
     background-size: cover;
     height: 100vh;
+    text-align: right;
+}
+
+#intro h1{
+    padding-right: 20px;
+}
+
+#intro h3{
+    padding-right: 20px;
+}
+
+#intro h5{
+    padding-right: 20px;
+}
+
+#intro-nav{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(111,111,111,0.5)
+}
+
+#intro-nav a{
+    padding: 10px;
+}
+
+#welcome{
+    text-align: center;
 }
 .nav-hidden{
     display: none;
@@ -32,8 +59,9 @@ CSS File for East Dearborn Medical Center PC Website
 .content-active{
     padding-top: 80px;
 }
-
-
+.spacer{
+    height: 40px;
+}
 .row{
     padding: 0;
     margin: 0;

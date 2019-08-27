@@ -5,20 +5,20 @@ window.onload = function(){
 }
 
 var navbar = document.getElementById("navbar");
-var gallery = document.getElementById("gallery");
-var locked = gallery.offsetTop;
+var welcome = document.getElementById("welcome");
+var locked = welcome.offsetTop;
 
 function navFunction(){
     if (window.pageYOffset >= locked) {
         navbar.classList.remove("nav-hidden");
         navbar.classList.add("nav-locked");
-        gallery.classList.remove("content-idle");
-        gallery.classList.add("content-active");
+        welcome.classList.remove("content-idle");
+        welcome.classList.add("content-active");
       } 
     else {
         navbar.classList.remove("nav-locked");
         navbar.classList.add("nav-hidden");
-        gallery.classList.remove("content-active");
-        gallery.classList.add("content-idle");
+        welcome.classList.remove("content-active");
+        welcome.classList.add("content-idle");
     }
 }
